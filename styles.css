@@ -1,0 +1,54 @@
+
+
+table, th, td {
+  border: 5px solid #88304e;
+    
+}
+
+td { text-align: center; 
+    
+}
+
+{
+ border-collapse: collapse;
+ width: 10px;
+}
+
+td, th {
+ padding: 0.6em;
+ border: 1px solid ;
+ width: 11.11%;
+}
+
+
+
+tr:hover { background: red; 
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+.videosize {
+    position:absolute;
+    z-index:-1;
+    top:0;
+    left:0;
+    width:100%; 
+    height:100vh;
+}
+
+
+
+
+
+
+
+
